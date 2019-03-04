@@ -19,7 +19,6 @@
             android:layout_marginEnd="30dp"
             android:layout_marginBottom="20dp"
             android:text="ไปยังหน้ากิจกรรม"
-            android:onClick="open"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
     </android.support.constraint.ConstraintLayout>
