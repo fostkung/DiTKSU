@@ -91,11 +91,6 @@ public class MainFragment extends Fragment {
             public void onClick(View v) {
                 getActivity ( ).getSupportFragmentManager ( ).beginTransaction ( ).replace (R.id.contentMainFragment,
                         new ThabionFragment ( )).addToBackStack (null).commit ( );
-//                String url = "https://www.ksu.ac.th/th/สำหรับนักศึกษา/";
-//
-//                Intent i = new Intent(Intent.ACTION_VIEW);
-//                i.setData(Uri.parse(url));
-//                startActivity(i);
             }
         });
     }
