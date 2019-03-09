@@ -11,39 +11,29 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbarPortfolio"
+        <ImageView
+            android:id="@+id/imageView5"
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="@color/colorPrimary"
-            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+            android:layout_height="69dp"
+            android:src="@drawable/top_f" />
 
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <android.support.constraint.ConstraintLayout
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <ImageView
-                    android:id="@+id/imageView2"
-                    android:layout_width="405dp"
-                    android:layout_height="100dp"
-                    android:layout_marginStart="3dp"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginEnd="3dp"
-                    android:src="@drawable/portfolio1"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                android:layout_height="wrap_content"
+                android:layout_margin="28dp"
+                android:background="#80FFFFFF"
+                android:orientation="vertical"
+                android:padding="28dp">
 
                 <ImageView
                     android:id="@+id/imageView3"
-                    android:layout_width="405dp"
-                    android:layout_height="100dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
                     android:layout_marginStart="3dp"
-                    android:layout_marginTop="10dp"
                     android:layout_marginEnd="3dp"
                     android:src="@drawable/portfolio2"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -51,17 +41,27 @@
                     app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
                 <ImageView
-                    android:id="@+id/imageView4"
-                    android:layout_width="405dp"
-                    android:layout_height="100dp"
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
                     android:layout_marginStart="3dp"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="3dp"
+                    android:src="@drawable/portfolio1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_marginStart="3dp"
                     android:layout_marginEnd="3dp"
                     android:src="@drawable/portfolio3"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView3" />
-            </android.support.constraint.ConstraintLayout>
+            </LinearLayout>
         </ScrollView>
 
     </LinearLayout>

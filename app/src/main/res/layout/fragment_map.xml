@@ -8,7 +8,8 @@
 
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+>
 
         <com.jsibbold.zoomage.ZoomageView
         android:id="@+id/zoomimageView"
@@ -41,13 +42,11 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbarMap"
+        <ImageView
+            android:id="@+id/imageView5"
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="@color/colorPrimary"
-            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
-
+            android:layout_height="69dp"
+            android:src="@drawable/top_e" />
     </LinearLayout>
 
 </FrameLayout>
