@@ -12,7 +12,7 @@
         android:roundIcon="@drawable/icon_logo1"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".KidjakumActivity"></activity>
+        <activity android:name=".KidjakumActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,14 +1,192 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Portfolio_1Fragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:orientation="vertical"
+        android:background="#80ffffff">
 
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:src="@drawable/top_d" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#80FFFFFF">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:text="          ขอแสดงความยินดีกับ นักศึกษา และคณาจารย์ สาขาวิชาเทคโนโลยีดิจิทัล หลักสูตรระบบสารสนเทศทางคอมพิวเตอร์ ,หลักสูตรคอมพิวเตอร์ธุรกิจ และสาขาวิชาการจัดการการค้าสมัยใหม่ คณะบริหารศาสตร์ มหาวิทยาลัยกาฬสินธุ์ ที่สามารถคว้ารางวัลระดับ Good และระดับ Very Good จากการประชุมวิชาการระดับปริญญาตรีด้านคอมพิวเตอร์ภูมิภาคอาเซียน ครั้งที่ 7 (Aucc2019) ณ มหาวิทยาลัยราชภัฏเชียงราย ระหว่างวันที่ 22-24 มีนาคม 2562 ที่ผ่านมา"
+                    android:textSize="15dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView16"
+                    android:layout_width="300dp"
+                    android:layout_height="234dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:src="@drawable/port1_1"
+                    app:layout_constraintBottom_toTopOf="@+id/imageView17"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView18"/>
+
+                <ImageView
+                    android:id="@+id/imageView18"
+                    android:layout_width="300dp"
+                    android:layout_height="234dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:src="@drawable/port1_7"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+                <ImageView
+                    android:id="@+id/imageView17"
+                    android:layout_width="300dp"
+                    android:layout_height="234dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:src="@drawable/port1_3"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView16"
+                    tools:layout_editor_absoluteX="55dp"
+                    tools:layout_editor_absoluteY="710dp" />
+
+                <ImageView
+                    android:id="@+id/imageView19"
+                    android:layout_width="300dp"
+                    android:layout_height="234dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:src="@drawable/port1_4"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView17"
+                    tools:layout_editor_absoluteX="55dp"
+                    tools:layout_editor_absoluteY="958dp" />
+
+                <ImageView
+                    android:id="@+id/imageView30"
+                    android:layout_width="300dp"
+                    android:layout_height="234dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:src="@drawable/port1_5"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView19"
+                    tools:layout_editor_absoluteX="55dp"
+                    tools:layout_editor_absoluteY="1206dp" />
+
+                <ImageView
+                    android:id="@+id/imageView31"
+                    android:layout_width="300dp"
+                    android:layout_height="234dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:src="@drawable/port1_6"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView30"
+                    tools:layout_editor_absoluteX="55dp"
+                    tools:layout_editor_absoluteY="1421dp" />
+
+                <ImageView
+                    android:id="@+id/imageView32"
+                    android:layout_width="300dp"
+                    android:layout_height="234dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:src="@drawable/port1_2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView31"
+                    tools:layout_editor_absoluteX="42dp"
+                    tools:layout_editor_absoluteY="1721dp" />
+
+                <ImageView
+                    android:id="@+id/imageView33"
+                    android:layout_width="300dp"
+                    android:layout_height="234dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:src="@drawable/port1_8"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView32"
+                    tools:layout_editor_absoluteX="55dp"
+                    tools:layout_editor_absoluteY="1632dp" />
+
+                <ImageView
+                    android:id="@+id/imageView34"
+                    android:layout_width="300dp"
+                    android:layout_height="234dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:src="@drawable/port1_9"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView33"
+                    tools:layout_editor_absoluteX="55dp"
+                    tools:layout_editor_absoluteY="1632dp" />
+
+                <ImageView
+                    android:id="@+id/imageView35"
+                    android:layout_width="300dp"
+                    android:layout_height="234dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:src="@drawable/port1_10"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView34"
+                    tools:layout_editor_absoluteX="55dp"
+                    tools:layout_editor_absoluteY="1632dp" />
+
+            </android.support.constraint.ConstraintLayout>
+        </ScrollView>
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#80FFFFFF">
+
+        </android.support.constraint.ConstraintLayout>
+
+    </LinearLayout>
 </FrameLayout>

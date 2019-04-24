@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1082540955846",
+    "firebase_url": "https://ditksu-870e7.firebaseio.com",
+    "project_id": "ditksu-870e7",
+    "storage_bucket": "ditksu-870e7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1082540955846:android:0a5dceb4e7b058ec",
+        "android_client_info": {
+          "package_name": "com.cisw421.ksu.ac.th.ditksu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1082540955846-b0vk7nvn8obdngs3d170ogphtc7vrern.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cisw421.ksu.ac.th.ditksu",
+            "certificate_hash": "8a79f85b8f5a0d304f8e814bacc0aebfb337f6e9"
+          }
+        },
+        {
+          "client_id": "1082540955846-iajmkout648jk3vuak9eut8t62lo4rs0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0-Dg-RxhOA08GiS_TX0xLMPwVmQtmqKY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1082540955846-iajmkout648jk3vuak9eut8t62lo4rs0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
