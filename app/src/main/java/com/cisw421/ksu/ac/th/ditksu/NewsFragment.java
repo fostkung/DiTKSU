@@ -27,10 +27,6 @@ public class NewsFragment extends Fragment {
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
-        WebView webView2 = getView().findViewById(R.id.wv2);
-        webView2.setWebViewClient(new WebViewClient());
-        webView2.loadUrl("https://m.facebook.com/citksu/posts/?ref=page_internal&mt_nav=0");
-
         WebView webView1 = getView().findViewById(R.id.wv1);
         webView1.setWebViewClient(new WebViewClient());
         webView1.loadUrl("https://m.facebook.com/citksu/posts/?ref=page_internal&mt_nav=0");

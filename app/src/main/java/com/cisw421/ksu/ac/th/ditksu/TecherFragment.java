@@ -12,13 +12,14 @@ import android.widget.ImageView;
 
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
+import com.bumptech.glide.Glide;
 
 
 /**
  * A simple {@link Fragment} subclass.
  */
 public class TecherFragment extends Fragment {
-
+    ImageView imageView;
 
     public TecherFragment() {
         // Required empty public constructor
@@ -65,6 +66,11 @@ public class TecherFragment extends Fragment {
                         new Techer_4fragment ( )).addToBackStack (null).commit ( );
             }
         });
+        imageView = getView().findViewById(R.id.img1);
+
+        String url = "https://firebasestorage.googleapis.com/v0/b/ditksu-870e7.appspot.com/o/image.png?alt=media&token=e5031875-b0ca-4f9c-86ca-9ec04483edb3";
+
+        Glide.with(getActivity()).load(url).into (imageView);
     }
 
 
