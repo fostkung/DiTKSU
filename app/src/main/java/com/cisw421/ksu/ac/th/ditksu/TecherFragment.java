@@ -62,6 +62,51 @@ public class TecherFragment extends Fragment {
                         new Techer_4fragment ( )).addToBackStack (null).commit ( );
             }
         });
+        //        tech5
+        ImageView img5 = getView ( ).findViewById (R.id.img5);
+        img4.setOnClickListener (new View.OnClickListener ( ) {
+            @Override
+            public void onClick(View v) {
+                getActivity ( ).getSupportFragmentManager ( ).beginTransaction ( ).replace (R.id.contentMainFragment,
+                        new Techer_5fragment ( )).addToBackStack (null).commit ( );
+            }
+        });
+        //        tech6
+        ImageView img6 = getView ( ).findViewById (R.id.img6);
+        img4.setOnClickListener (new View.OnClickListener ( ) {
+            @Override
+            public void onClick(View v) {
+                getActivity ( ).getSupportFragmentManager ( ).beginTransaction ( ).replace (R.id.contentMainFragment,
+                        new Techer_6fragment ( )).addToBackStack (null).commit ( );
+            }
+        });
+        //        tech7
+        ImageView img7 = getView ( ).findViewById (R.id.img7);
+        img4.setOnClickListener (new View.OnClickListener ( ) {
+            @Override
+            public void onClick(View v) {
+                getActivity ( ).getSupportFragmentManager ( ).beginTransaction ( ).replace (R.id.contentMainFragment,
+                        new Techer_7fragment ( )).addToBackStack (null).commit ( );
+            }
+        });
+        //        tech8
+        ImageView img8 = getView ( ).findViewById (R.id.img8);
+        img4.setOnClickListener (new View.OnClickListener ( ) {
+            @Override
+            public void onClick(View v) {
+                getActivity ( ).getSupportFragmentManager ( ).beginTransaction ( ).replace (R.id.contentMainFragment,
+                        new Techer_8fragment ( )).addToBackStack (null).commit ( );
+            }
+        });
+        //        tech9
+        ImageView img9 = getView ( ).findViewById (R.id.img9);
+        img4.setOnClickListener (new View.OnClickListener ( ) {
+            @Override
+            public void onClick(View v) {
+                getActivity ( ).getSupportFragmentManager ( ).beginTransaction ( ).replace (R.id.contentMainFragment,
+                        new Techer_9fragment ( )).addToBackStack (null).commit ( );
+            }
+        });
         //image 1
         imageView = getView().findViewById(R.id.img1);
         String url = "https://firebasestorage.googleapis.com/v0/b/ditksu-870e7.appspot.com/o/image.png?alt=media&token=e5031875-b0ca-4f9c-86ca-9ec04483edb3";
