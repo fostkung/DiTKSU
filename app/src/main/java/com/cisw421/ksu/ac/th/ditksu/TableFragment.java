@@ -1,7 +1,6 @@
 package com.cisw421.ksu.ac.th.ditksu;
 
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -9,17 +8,17 @@ import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.ImageView;
 
 import com.jsibbold.zoomage.ZoomageView;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 
 /**
  * A simple {@link Fragment} subclass.
  */
 public class TableFragment extends Fragment {
-    private ZoomageView zoomageView;
 
     public TableFragment() {
         // Required empty public constructor
@@ -30,7 +29,6 @@ public class TableFragment extends Fragment {
         super.onActivityCreated(savedInstanceState);
 
         createToolbar();
-        chooseImage();
 
     }
 
@@ -48,19 +46,7 @@ public class TableFragment extends Fragment {
         });
         setHasOptionsMenu(true);
     }
-    private void chooseImage() {
-        zoomageView = getView().findViewById(R.id.imvAvata);
-        zoomageView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
 
-                Intent intent = new Intent(Intent.ACTION_PICK);
-                intent.setType("image/*");
-                startActivityForResult(Intent.createChooser(intent, "Please Choose App"), 1);
-
-            }
-        });
-    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,

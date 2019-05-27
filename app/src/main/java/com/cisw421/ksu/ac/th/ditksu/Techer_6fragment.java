@@ -36,7 +36,7 @@ public class Techer_6fragment extends Fragment {
     }
 
     private void createToolbar() {
-        Toolbar toolbar = getView().findViewById(R.id.techer4);
+        Toolbar toolbar = getView().findViewById(R.id.techer6);
         ((MainActivity) getActivity()).setSupportActionBar(toolbar);
         ((MainActivity) getActivity()).getSupportActionBar().setTitle("อาจารย์ในสาขา");
         ((MainActivity) getActivity()).getSupportActionBar().setHomeButtonEnabled(true);

@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+
 import com.bumptech.glide.Glide;
 
 
@@ -27,102 +28,122 @@ public class TecherFragment extends Fragment {
 
 
 //        tech1
-        ImageView img1 = getView ( ).findViewById (R.id.img1);
-        img1.setOnClickListener (new View.OnClickListener ( ) {
+        ImageView img1 = getView().findViewById(R.id.img1);
+        img1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                getActivity ( ).getSupportFragmentManager ( ).beginTransaction ( ).replace (R.id.contentMainFragment,
-                        new Techer_1fragment ( )).addToBackStack (null).commit ( );
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.contentMainFragment,
+                        new Techer_1fragment()).addToBackStack(null).commit();
             }
         });
 //        tech2
-        ImageView img2 = getView ( ).findViewById (R.id.img2);
-        img2.setOnClickListener (new View.OnClickListener ( ) {
+        ImageView img2 = getView().findViewById(R.id.img2);
+        img2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                getActivity ( ).getSupportFragmentManager ( ).beginTransaction ( ).replace (R.id.contentMainFragment,
-                        new Techer_2fragment ( )).addToBackStack (null).commit ( );
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.contentMainFragment,
+                        new Techer_2fragment()).addToBackStack(null).commit();
             }
         });
         //        tech3
-        ImageView img3 = getView ( ).findViewById (R.id.img3);
-        img3.setOnClickListener (new View.OnClickListener ( ) {
+        ImageView img3 = getView().findViewById(R.id.img3);
+        img3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                getActivity ( ).getSupportFragmentManager ( ).beginTransaction ( ).replace (R.id.contentMainFragment,
-                        new Techer_3fragment ( )).addToBackStack (null).commit ( );
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.contentMainFragment,
+                        new Techer_3fragment()).addToBackStack(null).commit();
             }
         });
         //        tech4
-        ImageView img4 = getView ( ).findViewById (R.id.img4);
-        img4.setOnClickListener (new View.OnClickListener ( ) {
+        ImageView img4 = getView().findViewById(R.id.img4);
+        img4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                getActivity ( ).getSupportFragmentManager ( ).beginTransaction ( ).replace (R.id.contentMainFragment,
-                        new Techer_4fragment ( )).addToBackStack (null).commit ( );
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.contentMainFragment,
+                        new Techer_4fragment()).addToBackStack(null).commit();
             }
         });
         //        tech5
-        ImageView img5 = getView ( ).findViewById (R.id.img5);
-        img4.setOnClickListener (new View.OnClickListener ( ) {
+        ImageView img5 = getView().findViewById(R.id.img5);
+        img5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                getActivity ( ).getSupportFragmentManager ( ).beginTransaction ( ).replace (R.id.contentMainFragment,
-                        new Techer_5fragment ( )).addToBackStack (null).commit ( );
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.contentMainFragment,
+                        new Techer_5fragment()).addToBackStack(null).commit();
             }
         });
         //        tech6
-        ImageView img6 = getView ( ).findViewById (R.id.img6);
-        img4.setOnClickListener (new View.OnClickListener ( ) {
+        ImageView img6 = getView().findViewById(R.id.img6);
+        img6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                getActivity ( ).getSupportFragmentManager ( ).beginTransaction ( ).replace (R.id.contentMainFragment,
-                        new Techer_6fragment ( )).addToBackStack (null).commit ( );
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.contentMainFragment,
+                        new Techer_6fragment()).addToBackStack(null).commit();
             }
         });
         //        tech7
-        ImageView img7 = getView ( ).findViewById (R.id.img7);
-        img4.setOnClickListener (new View.OnClickListener ( ) {
+        ImageView img7 = getView().findViewById(R.id.img7);
+        img7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                getActivity ( ).getSupportFragmentManager ( ).beginTransaction ( ).replace (R.id.contentMainFragment,
-                        new Techer_7fragment ( )).addToBackStack (null).commit ( );
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.contentMainFragment,
+                        new Techer_7fragment()).addToBackStack(null).commit();
             }
         });
         //        tech8
-        ImageView img8 = getView ( ).findViewById (R.id.img8);
-        img4.setOnClickListener (new View.OnClickListener ( ) {
+        ImageView img8 = getView().findViewById(R.id.img8);
+        img8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                getActivity ( ).getSupportFragmentManager ( ).beginTransaction ( ).replace (R.id.contentMainFragment,
-                        new Techer_8fragment ( )).addToBackStack (null).commit ( );
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.contentMainFragment,
+                        new Techer_8fragment()).addToBackStack(null).commit();
             }
         });
         //        tech9
-        ImageView img9 = getView ( ).findViewById (R.id.img9);
-        img4.setOnClickListener (new View.OnClickListener ( ) {
+        ImageView img9 = getView().findViewById(R.id.img9);
+        img9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                getActivity ( ).getSupportFragmentManager ( ).beginTransaction ( ).replace (R.id.contentMainFragment,
-                        new Techer_9fragment ( )).addToBackStack (null).commit ( );
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.contentMainFragment,
+                        new Techer_9fragment()).addToBackStack(null).commit();
             }
         });
         //image 1
         imageView = getView().findViewById(R.id.img1);
         String url = "https://firebasestorage.googleapis.com/v0/b/ditksu-870e7.appspot.com/o/image.png?alt=media&token=e5031875-b0ca-4f9c-86ca-9ec04483edb3";
-        Glide.with(getActivity()).load(url).into (imageView);
+        Glide.with(getActivity()).load(url).into(imageView);
         //image 2
         imageView = getView().findViewById(R.id.img2);
         String url1 = "https://firebasestorage.googleapis.com/v0/b/ditksu-870e7.appspot.com/o/image.png?alt=media&token=e5031875-b0ca-4f9c-86ca-9ec04483edb3";
-        Glide.with(getActivity()).load(url1).into (imageView);
+        Glide.with(getActivity()).load(url1).into(imageView);
         //image 3
         imageView = getView().findViewById(R.id.img3);
         String url2 = "https://firebasestorage.googleapis.com/v0/b/ditksu-870e7.appspot.com/o/image.png?alt=media&token=e5031875-b0ca-4f9c-86ca-9ec04483edb3";
-        Glide.with(getActivity()).load(url2).into (imageView);
-        //image
+        Glide.with(getActivity()).load(url2).into(imageView);
+        //image 4
         imageView = getView().findViewById(R.id.img4);
         String url3 = "https://firebasestorage.googleapis.com/v0/b/ditksu-870e7.appspot.com/o/image.png?alt=media&token=e5031875-b0ca-4f9c-86ca-9ec04483edb3";
-        Glide.with(getActivity()).load(url3).into (imageView);
+        Glide.with(getActivity()).load(url3).into(imageView);
+        //image 5
+        imageView = getView().findViewById(R.id.img5);
+        String url4 = "https://firebasestorage.googleapis.com/v0/b/ditksu-870e7.appspot.com/o/image.png?alt=media&token=e5031875-b0ca-4f9c-86ca-9ec04483edb3";
+        Glide.with(getActivity()).load(url3).into(imageView);
+        //image 6
+        imageView = getView().findViewById(R.id.img6);
+        String url5 = "https://firebasestorage.googleapis.com/v0/b/ditksu-870e7.appspot.com/o/image.png?alt=media&token=e5031875-b0ca-4f9c-86ca-9ec04483edb3";
+        Glide.with(getActivity()).load(url3).into(imageView);
+        //image 7
+        imageView = getView().findViewById(R.id.img7);
+        String url6 = "https://firebasestorage.googleapis.com/v0/b/ditksu-870e7.appspot.com/o/image.png?alt=media&token=e5031875-b0ca-4f9c-86ca-9ec04483edb3";
+        Glide.with(getActivity()).load(url3).into(imageView);
+        //image 8
+        imageView = getView().findViewById(R.id.img8);
+        String url7 = "https://firebasestorage.googleapis.com/v0/b/ditksu-870e7.appspot.com/o/image.png?alt=media&token=e5031875-b0ca-4f9c-86ca-9ec04483edb3";
+        Glide.with(getActivity()).load(url3).into(imageView);
+        //image 9
+        imageView = getView().findViewById(R.id.img9);
+        String url8 = "https://firebasestorage.googleapis.com/v0/b/ditksu-870e7.appspot.com/o/image.png?alt=media&token=e5031875-b0ca-4f9c-86ca-9ec04483edb3";
+        Glide.with(getActivity()).load(url3).into(imageView);
 
         createToolbar();
     }

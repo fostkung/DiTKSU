@@ -21,8 +21,8 @@ public class PortfolioFragment extends Fragment {
         super.onActivityCreated (savedInstanceState);
 
         //        ผลงานที่ 1
-        ImageView imageView2 = getView().findViewById(R.id.imageView2);
-        imageView2.setOnClickListener(new View.OnClickListener() {
+        ImageView imageView1 = getView().findViewById(R.id.imageView1);
+        imageView1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.contentMainFragment,
@@ -30,8 +30,8 @@ public class PortfolioFragment extends Fragment {
             }
         });
         //        ผลงานที่ 2
-        ImageView imageView3 = getView().findViewById(R.id.imageView3);
-        imageView3.setOnClickListener(new View.OnClickListener() {
+        ImageView imageView2 = getView().findViewById(R.id.imageView2);
+        imageView2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.contentMainFragment,
@@ -40,8 +40,8 @@ public class PortfolioFragment extends Fragment {
 
         });
         //        ผลงานที่ 3
-        ImageView imageView4 = getView().findViewById(R.id.imageView4);
-        imageView4.setOnClickListener(new View.OnClickListener() {
+        ImageView imageView3 = getView().findViewById(R.id.imageView3);
+        imageView3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.contentMainFragment,
