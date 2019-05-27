@@ -1,17 +1,13 @@
 package com.cisw421.ksu.ac.th.ditksu;
 
-
-import android.media.Image;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-
-import com.google.firebase.storage.FirebaseStorage;
-import com.google.firebase.storage.StorageReference;
 import com.bumptech.glide.Glide;
 
 
@@ -66,13 +62,40 @@ public class TecherFragment extends Fragment {
                         new Techer_4fragment ( )).addToBackStack (null).commit ( );
             }
         });
+        //image 1
         imageView = getView().findViewById(R.id.img1);
-
         String url = "https://firebasestorage.googleapis.com/v0/b/ditksu-870e7.appspot.com/o/image.png?alt=media&token=e5031875-b0ca-4f9c-86ca-9ec04483edb3";
-
         Glide.with(getActivity()).load(url).into (imageView);
+        //image 2
+        imageView = getView().findViewById(R.id.img2);
+        String url1 = "https://firebasestorage.googleapis.com/v0/b/ditksu-870e7.appspot.com/o/image.png?alt=media&token=e5031875-b0ca-4f9c-86ca-9ec04483edb3";
+        Glide.with(getActivity()).load(url1).into (imageView);
+        //image 3
+        imageView = getView().findViewById(R.id.img3);
+        String url2 = "https://firebasestorage.googleapis.com/v0/b/ditksu-870e7.appspot.com/o/image.png?alt=media&token=e5031875-b0ca-4f9c-86ca-9ec04483edb3";
+        Glide.with(getActivity()).load(url2).into (imageView);
+        //image
+        imageView = getView().findViewById(R.id.img4);
+        String url3 = "https://firebasestorage.googleapis.com/v0/b/ditksu-870e7.appspot.com/o/image.png?alt=media&token=e5031875-b0ca-4f9c-86ca-9ec04483edb3";
+        Glide.with(getActivity()).load(url3).into (imageView);
+
+        createToolbar();
     }
 
+    private void createToolbar() {
+        Toolbar toolbar = getView().findViewById(R.id.techer);
+        ((MainActivity) getActivity()).setSupportActionBar(toolbar);
+        ((MainActivity) getActivity()).getSupportActionBar().setTitle("อาจารย์ในสาขา");
+        ((MainActivity) getActivity()).getSupportActionBar().setHomeButtonEnabled(true);
+        ((MainActivity) getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                getActivity().getSupportFragmentManager().popBackStack();
+            }
+        });
+        setHasOptionsMenu(true);
+    }
 
 
     @Override

@@ -2,6 +2,7 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:screenOrientation="portrait"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Portfolio_1Fragment">
@@ -12,11 +13,12 @@
         android:orientation="vertical"
         android:background="#80ffffff">
 
-        <ImageView
-            android:id="@+id/imageView15"
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/port1"
             android:layout_width="match_parent"
-            android:layout_height="69dp"
-            android:src="@drawable/top_d" />
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
 
         <ScrollView
             android:layout_width="match_parent"

@@ -2,6 +2,7 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:screenOrientation="portrait"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MapFragment">
@@ -9,35 +10,29 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical" >
 
-        <ImageView
-            android:id="@+id/imageView5"
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/map"
             android:layout_width="match_parent"
-            android:layout_height="69dp"
-            android:src="@drawable/top_e" />
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
 
-        <android.support.constraint.ConstraintLayout
+        <com.jsibbold.zoomage.ZoomageView
+            android:id="@+id/zoomimageView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#80ffffff"
-            >
-
-            <com.jsibbold.zoomage.ZoomageView
-                android:id="@+id/zoomimageView"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/ksumap"
-                app:zoomage_animateOnReset="true"
-                app:zoomage_autoCenter="true"
-                app:zoomage_autoResetMode="UNDER"
-                app:zoomage_maxScale="10"
-                app:zoomage_minScale="0.5"
-                app:zoomage_restrictBounds="false"
-                app:zoomage_translatable="true"
-                app:zoomage_zoomable="true" />
-
-        </android.support.constraint.ConstraintLayout>
+            android:src="@drawable/ksumap"
+            app:zoomage_animateOnReset="true"
+            app:zoomage_autoCenter="true"
+            app:zoomage_autoResetMode="UNDER"
+            app:zoomage_maxScale="10"
+            app:zoomage_minScale="0.5"
+            app:zoomage_restrictBounds="false"
+            app:zoomage_translatable="true"
+            app:zoomage_zoomable="true" />
     </LinearLayout>
+
 
 </FrameLayout>
