@@ -110,40 +110,40 @@ public class TecherFragment extends Fragment {
         });
         //image 1
         imageView = getView().findViewById(R.id.img1);
-        String url = "https://firebasestorage.googleapis.com/v0/b/ditksu-870e7.appspot.com/o/image.png?alt=media&token=e5031875-b0ca-4f9c-86ca-9ec04483edb3";
+        String url = "https://firebasestorage.googleapis.com/v0/b/ditksu-870e7.appspot.com/o/kamonwan.png?alt=media&token=15a40c02-6f69-4aab-b4da-6dbf3d9ccce8";
         Glide.with(getActivity()).load(url).into(imageView);
         //image 2
         imageView = getView().findViewById(R.id.img2);
-        String url1 = "https://firebasestorage.googleapis.com/v0/b/ditksu-870e7.appspot.com/o/image.png?alt=media&token=e5031875-b0ca-4f9c-86ca-9ec04483edb3";
+        String url1 = "https://firebasestorage.googleapis.com/v0/b/ditksu-870e7.appspot.com/o/napatwarun.png?alt=media&token=53d9e549-5d3e-4c06-b02e-a707abc447bb";
         Glide.with(getActivity()).load(url1).into(imageView);
         //image 3
         imageView = getView().findViewById(R.id.img3);
-        String url2 = "https://firebasestorage.googleapis.com/v0/b/ditksu-870e7.appspot.com/o/image.png?alt=media&token=e5031875-b0ca-4f9c-86ca-9ec04483edb3";
+        String url2 = "https://firebasestorage.googleapis.com/v0/b/ditksu-870e7.appspot.com/o/sakonwan.png?alt=media&token=92d5150f-a303-48df-a91f-c4ef86a35fc1";
         Glide.with(getActivity()).load(url2).into(imageView);
         //image 4
         imageView = getView().findViewById(R.id.img4);
-        String url3 = "https://firebasestorage.googleapis.com/v0/b/ditksu-870e7.appspot.com/o/image.png?alt=media&token=e5031875-b0ca-4f9c-86ca-9ec04483edb3";
+        String url3 = "https://firebasestorage.googleapis.com/v0/b/ditksu-870e7.appspot.com/o/sirion.png?alt=media&token=2f3ac675-2a1e-46fb-9f5f-f20fe71c78ee";
         Glide.with(getActivity()).load(url3).into(imageView);
         //image 5
         imageView = getView().findViewById(R.id.img5);
-        String url4 = "https://firebasestorage.googleapis.com/v0/b/ditksu-870e7.appspot.com/o/image.png?alt=media&token=e5031875-b0ca-4f9c-86ca-9ec04483edb3";
-        Glide.with(getActivity()).load(url3).into(imageView);
+        String url4 = "https://firebasestorage.googleapis.com/v0/b/ditksu-870e7.appspot.com/o/sukaun.png?alt=media&token=7e65e746-a61c-4ac0-b2b9-5691b1ca3da3";
+        Glide.with(getActivity()).load(url4).into(imageView);
         //image 6
         imageView = getView().findViewById(R.id.img6);
-        String url5 = "https://firebasestorage.googleapis.com/v0/b/ditksu-870e7.appspot.com/o/image.png?alt=media&token=e5031875-b0ca-4f9c-86ca-9ec04483edb3";
-        Glide.with(getActivity()).load(url3).into(imageView);
+        String url5 = "https://firebasestorage.googleapis.com/v0/b/ditksu-870e7.appspot.com/o/tanachapong.png?alt=media&token=c4fc2c47-e155-400e-88e6-7fe48a7a7f30";
+        Glide.with(getActivity()).load(url5).into(imageView);
         //image 7
         imageView = getView().findViewById(R.id.img7);
-        String url6 = "https://firebasestorage.googleapis.com/v0/b/ditksu-870e7.appspot.com/o/image.png?alt=media&token=e5031875-b0ca-4f9c-86ca-9ec04483edb3";
-        Glide.with(getActivity()).load(url3).into(imageView);
+        String url6 = "https://firebasestorage.googleapis.com/v0/b/ditksu-870e7.appspot.com/o/thammarat.png?alt=media&token=ad1f81d7-f891-4b5d-86e1-7c203e785a46";
+        Glide.with(getActivity()).load(url6).into(imageView);
         //image 8
         imageView = getView().findViewById(R.id.img8);
-        String url7 = "https://firebasestorage.googleapis.com/v0/b/ditksu-870e7.appspot.com/o/image.png?alt=media&token=e5031875-b0ca-4f9c-86ca-9ec04483edb3";
-        Glide.with(getActivity()).load(url3).into(imageView);
+        String url7 = "https://firebasestorage.googleapis.com/v0/b/ditksu-870e7.appspot.com/o/udom.png?alt=media&token=47e9359a-4b41-4098-a7bf-5b692a335f21";
+        Glide.with(getActivity()).load(url7).into(imageView);
         //image 9
-        imageView = getView().findViewById(R.id.img9);
-        String url8 = "https://firebasestorage.googleapis.com/v0/b/ditksu-870e7.appspot.com/o/image.png?alt=media&token=e5031875-b0ca-4f9c-86ca-9ec04483edb3";
-        Glide.with(getActivity()).load(url3).into(imageView);
+//        imageView = getView().findViewById(R.id.img9);
+//        String url8 = "";
+//        Glide.with(getActivity()).load(url8).into(imageView);
 
         createToolbar();
     }

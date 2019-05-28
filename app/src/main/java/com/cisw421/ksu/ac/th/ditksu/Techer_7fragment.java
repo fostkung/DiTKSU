@@ -28,7 +28,7 @@ public class Techer_7fragment extends Fragment {
 
         //image 1
         imageView = getView().findViewById(R.id.img1);
-        String url = "https://firebasestorage.googleapis.com/v0/b/ditksu-870e7.appspot.com/o/image.png?alt=media&token=e5031875-b0ca-4f9c-86ca-9ec04483edb3";
+        String url = "https://firebasestorage.googleapis.com/v0/b/ditksu-870e7.appspot.com/o/thammarat.png?alt=media&token=ad1f81d7-f891-4b5d-86e1-7c203e785a46";
         Glide.with(getActivity()).load(url).into (imageView);
 
         createToolbar();

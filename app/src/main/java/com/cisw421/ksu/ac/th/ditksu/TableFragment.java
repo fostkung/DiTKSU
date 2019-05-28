@@ -9,11 +9,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.jsibbold.zoomage.ZoomageView;
-
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
 
 /**
  * A simple {@link Fragment} subclass.
